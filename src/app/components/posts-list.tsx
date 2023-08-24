@@ -1,6 +1,7 @@
 import { TweetCard } from './tweet-card'
+import { type Post } from '../types/posts'
 
-export function PostsList ({ posts }) {
+export function PostsList ({ posts }: { posts: Post[] | null }) {
   return (
     posts.map((post) => {
       const {
