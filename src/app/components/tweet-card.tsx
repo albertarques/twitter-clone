@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, CardHeader, CardBody, CardFooter, Avatar, Button } from '@nextui-org/react';
+import { Card, CardHeader, CardBody, CardFooter, Avatar, Button } from '@nextui-org/react'
 import { AvatarIcon } from './icons'
 import { IconRepeat, IconHeart, IconMessageCircle } from '@tabler/icons-react'
 import Link from 'next/link'
